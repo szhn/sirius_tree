@@ -6,11 +6,14 @@
 
 $(call inherit-product, device/xiaomi/sirius/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Derp stuff.
+WITH_GAPPS := true
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+TARGET_GAPPS_ARCH := arm64
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_sirius
+PRODUCT_NAME := derp_sirius
 PRODUCT_DEVICE := sirius
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 8 SE
