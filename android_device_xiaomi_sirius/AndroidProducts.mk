@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/lineage_sirius.mk
+	$(LOCAL_DIR)/derp_sirius.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_sirius-user \
-    lineage_sirius-userdebug \
-    lineage_sirius-eng
+    derp_sirius-user \
+    derp_sirius-userdebug \
+    derp_sirius-eng
