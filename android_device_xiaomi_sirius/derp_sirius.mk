@@ -12,6 +12,10 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# Unofficial-ify
+DERP_BUILDTYPE := Unofficial
+DERP_BUILD_ZIP_TYPE := GAPPS
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_sirius
 PRODUCT_DEVICE := sirius
