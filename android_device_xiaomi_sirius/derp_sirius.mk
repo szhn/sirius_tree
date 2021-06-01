@@ -10,7 +10,7 @@ $(call inherit-product, device/xiaomi/sirius/device.mk)
 WITH_GAPPS := true
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
-TARGET_FACE_UNLOCK_SUPPORTED := true
+IS_PHONE := true
 
 # Unofficial-ify
 DERP_BUILDTYPE := Unofficial
