@@ -11,6 +11,7 @@ WITH_GAPPS := true
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
+GAPPS_VARIANT := stock
 
 # Unofficial-ify
 DERP_BUILDTYPE := Unofficial
